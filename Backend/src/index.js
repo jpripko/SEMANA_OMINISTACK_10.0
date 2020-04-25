@@ -9,7 +9,7 @@ const server = http.Server(app)
 
 setupWebsocket(server);
 
-mongoose.connect('mongodb+srv://jeanpripko:Bigdata2020@cluster0-ajtky.mongodb.net/cl1?retryWrites=true&w=majority',{
+mongoose.connect('mongodb+srv://jeanpripko:<password>@cluster0-ajtky.mongodb.net/cl1?retryWrites=true&w=majority',{
     useNewUrlParser: true,
     useUnifiedTopology: true,
 
